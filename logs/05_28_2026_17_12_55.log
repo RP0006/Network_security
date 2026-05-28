@@ -1,0 +1,23 @@
+2026-05-28 17:12:55 - INFO - Logger file is running successfully
+2026-05-28 17:12:56 - INFO - Initiating Data Ingestion
+2026-05-28 17:13:00 - INFO - Performed train test split on dataframe
+2026-05-28 17:13:00 - INFO - Exported train and test files
+2026-05-28 17:13:00 - INFO - Data Ingestion Completed
+2026-05-28 17:13:00 - INFO - Initiating Data Validation
+2026-05-28 17:13:00 - INFO - Required number of columns:2
+2026-05-28 17:13:00 - INFO - Data frame has columns:31
+2026-05-28 17:13:00 - INFO - Required number of columns:2
+2026-05-28 17:13:00 - INFO - Data frame has columns:31
+2026-05-28 17:13:00 - INFO - Data Validation Completed
+2026-05-28 17:13:00 - INFO - Initiating Data Transformation
+2026-05-28 17:13:00 - INFO - Entered the save_object method of MainUtils class
+2026-05-28 17:13:00 - INFO - Exited the save_object method of MainUtils class
+2026-05-28 17:13:00 - INFO - Data Transformation Artifact: DataTransformationArtifact(transformed_object_file_path='artifacts/05_28_2026_17_12_55/data_transformation/transformed_object/preprocessor.pkl', transformed_train_file_path='artifacts/05_28_2026_17_12_55/data_transformation/transformed/train.npy', transformed_test_file_path='artifacts/05_28_2026_17_12_55/data_transformation/transformed/test.npy')
+2026-05-28 17:13:00 - INFO - Data Transformation Completed
+2026-05-28 17:13:00 - INFO - Initiating Model Training
+2026-05-28 17:14:03 - INFO - Entered the save_object method of MainUtils class
+2026-05-28 17:14:03 - INFO - Exited the save_object method of MainUtils class
+2026-05-28 17:14:03 - INFO - Entered the save_object method of MainUtils class
+2026-05-28 17:14:03 - INFO - Exited the save_object method of MainUtils class
+2026-05-28 17:14:03 - INFO - Model Trainer Artifact: ModelTrainerArtifact(trained_model_file_path='artifacts/05_28_2026_17_12_55/model_trainer/trained_model/model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9909754613668627, precision_score=0.9891700404858299, recall_score=0.9927874847622917), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9862958484482064, precision_score=0.9819422150882825, recall_score=0.9906882591093117))
+2026-05-28 17:14:03 - INFO - Model Training Completed

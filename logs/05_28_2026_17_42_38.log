@@ -1,0 +1,17 @@
+2026-05-28 17:42:38 - INFO - Logger file is running successfully
+2026-05-28 17:42:39 - INFO - Initiating Data Ingestion
+2026-05-28 17:42:45 - INFO - Performed train test split on dataframe
+2026-05-28 17:42:45 - INFO - Exported train and test files
+2026-05-28 17:42:45 - INFO - Data Ingestion Completed
+2026-05-28 17:42:45 - INFO - Initiating Data Validation
+2026-05-28 17:42:45 - INFO - Required number of columns:2
+2026-05-28 17:42:45 - INFO - Data frame has columns:31
+2026-05-28 17:42:45 - INFO - Required number of columns:2
+2026-05-28 17:42:45 - INFO - Data frame has columns:31
+2026-05-28 17:42:45 - INFO - Data Validation Completed
+2026-05-28 17:42:45 - INFO - Initiating Data Transformation
+2026-05-28 17:42:45 - INFO - Entered the save_object method of MainUtils class
+2026-05-28 17:42:45 - INFO - Exited the save_object method of MainUtils class
+2026-05-28 17:42:45 - INFO - Data Transformation Artifact: DataTransformationArtifact(transformed_object_file_path='artifacts/05_28_2026_17_42_38/data_transformation/transformed_object/preprocessor.pkl', transformed_train_file_path='artifacts/05_28_2026_17_42_38/data_transformation/transformed/train.npy', transformed_test_file_path='artifacts/05_28_2026_17_42_38/data_transformation/transformed/test.npy')
+2026-05-28 17:42:45 - INFO - Data Transformation Completed
+2026-05-28 17:42:45 - INFO - Initiating Model Training

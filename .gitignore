@@ -1,3 +1,7 @@
-venv
-.env
-logs/
+artifacts/
+mlruns/
+final_model/
+*.pkl
+*.npy
+venv/
+__pycache__/

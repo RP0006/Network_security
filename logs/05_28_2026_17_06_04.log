@@ -1,0 +1,11 @@
+2026-05-28 17:06:04 - INFO - Logger file is running successfully
+2026-05-28 17:06:05 - INFO - Initiating Data Ingestion
+2026-05-28 17:06:11 - INFO - Performed train test split on dataframe
+2026-05-28 17:06:11 - INFO - Exported train and test files
+2026-05-28 17:06:11 - INFO - Data Ingestion Completed
+2026-05-28 17:06:11 - INFO - Initiating Data Validation
+2026-05-28 17:06:11 - INFO - Required number of columns:2
+2026-05-28 17:06:11 - INFO - Data frame has columns:31
+2026-05-28 17:06:11 - INFO - Required number of columns:2
+2026-05-28 17:06:11 - INFO - Data frame has columns:31
+2026-05-28 17:06:11 - INFO - Data Validation Completed

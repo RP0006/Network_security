@@ -1,0 +1,12 @@
+2026-05-28 16:32:09 - INFO - Logger file is running successfully
+2026-05-28 16:32:12 - INFO - NumExpr defaulting to 10 threads.
+2026-05-28 16:32:14 - INFO - Initiating Data Ingestion
+2026-05-28 16:32:18 - INFO - Performed train test split on dataframe
+2026-05-28 16:32:18 - INFO - Exported train and test files
+2026-05-28 16:32:18 - INFO - Data Ingestion Completed
+2026-05-28 16:32:18 - INFO - Initiating Data Validation
+2026-05-28 16:32:18 - INFO - Required number of columns:2
+2026-05-28 16:32:18 - INFO - Data frame has columns:31
+2026-05-28 16:32:18 - INFO - Required number of columns:2
+2026-05-28 16:32:18 - INFO - Data frame has columns:31
+2026-05-28 16:32:18 - INFO - Data Validation Completed
