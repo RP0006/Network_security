@@ -1,9 +1,8 @@
 python-dotenv
 pandas
-numpy 
+numpy
 scikit-learn
 pymongo
 certifi
-mongodb@3.6
-yaml
-##-e.
+PyYAML
+dill
