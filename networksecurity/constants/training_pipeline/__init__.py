@@ -36,9 +36,17 @@ DATA_VALIDATION_DRIFT_REPORT_FILE_NAME:str="report.yaml"
 DATA_TRANSFORMATION_DIR_NAME:str="data_transformation"
 DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR:str="transformed"
 DATA_TRANSFORMATION_OBJECT_DIR:str="transformed_object"
+DATA_TRANSFORMATION_PREPROCESSING_OBJECT_FILE_NAME:str="preprocessor.pkl"
 
 DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
     "missing_values":np.nan,
     "n_neighbors":3,
     "weights":"uniform",
 }
+
+'''Model Trainer related constants start with MODE TRAINER VAR NAME'''
+MODEL_TRAINER_DIR_NAME:str="model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR:str="trained_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME:str="model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE:str=0.6
+MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD:str=0.05

@@ -1,0 +1,23 @@
+artifact_path: /Users/rohitpal/Documents/Networksecurity/mlruns/0/models/m-872faa90f8384b788deef61942aeef8f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-872faa90f8384b788deef61942aeef8f
+model_size_bytes: 33376388
+model_uuid: m-872faa90f8384b788deef61942aeef8f
+prompts: null
+run_id: bd5cce8ede284cb689bdf47223e7d101
+utc_time_created: '2026-05-28 12:25:17.986713'
