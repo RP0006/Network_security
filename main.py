@@ -22,15 +22,15 @@ if __name__ == '__main__':
 
     try:
 
-        # =====================================================
+        
         # TRAINING PIPELINE CONFIG
-        # =====================================================
+        
 
         trainingpipelineconfig = TrainingPipelineConfig()
 
-        # =====================================================
+        
         # DATA INGESTION
-        # =====================================================
+        
 
         dataingestionconfig = DataIngestionConfig(
             trainingpipelineconfig
@@ -50,9 +50,8 @@ if __name__ == '__main__':
 
         print(dataingestionartifact)
 
-        # =====================================================
         # DATA VALIDATION
-        # =====================================================
+        
 
         data_validation_config = DataValidationConfig(
             trainingpipelineconfig
@@ -73,9 +72,8 @@ if __name__ == '__main__':
 
         print(data_validation_artifact)
 
-        # =====================================================
         # DATA TRANSFORMATION
-        # =====================================================
+        
 
         data_transformation_config = (
             DataTransformationConfig(
@@ -98,9 +96,7 @@ if __name__ == '__main__':
 
         print(data_transformation_artifact)
 
-        # =====================================================
         # MODEL TRAINER
-        # =====================================================
 
         model_trainer_config = ModelTrainerConfig(
             trainingpipelineconfig
